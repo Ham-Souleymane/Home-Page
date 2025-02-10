@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  
+  margin: 0 ;
+  padding: 0;
+box-sizing: border-box;
+}
+
+
+.continer{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+   "header"
+   "main"
+   "footer"
+  ;
+  font-family: "Roboto", serif;
+}
+
+.Header{
+  grid-area: header;
+}
+.Main {
+  grid-area: main;
+ 
+}
+
+.Footer{
+  grid-area: footer;
+
+background-color: #00b4d8;
+  
+}

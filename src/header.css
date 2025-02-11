@@ -44,28 +44,43 @@
     z-index: 2;
   }
   #githup-icon{
-    position: absolute;
-    right: 140px;
-    bottom: 12px;
+    
+    
     font-size: 26px;
     cursor: pointer;
   }
   #linkedin-icon{
     height: 25px;
-    position: absolute;
-    bottom: 12px;
-    right: 90px;
+  
+   
     cursor: pointer;
   }
  #x-icon{
 height: 25px;
-position: absolute;
-bottom: 12px;
-right: 40px;
+
+
 cursor: pointer;
  }
  .icon-continer{
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  bottom: 10px;
+  right: 30px;
+ }
+ @media (max-width:768px){
+  .Hcontiner{
+    flex-direction: column;
+  }
+  .aboutMe{
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .icon-continer{
+    bottom: -10px;
+    right: 230px;
+    gap: 30px;
+  }
  }

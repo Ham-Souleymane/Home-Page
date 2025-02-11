@@ -1,8 +1,6 @@
 import './header.css'
 import pic from './assets/download.jfif'
 import xIcon from './assets/x.svg'
-import xIcon from './assets/x.svg'
-
 
 export function Header({className}){
 return (

@@ -69,4 +69,8 @@ cursor: pointer;
   .project-card-continer{
     grid-template-columns: 1fr;
   }
+  .card{
+    width: 80%;
+    height: 400px;
+  }
 }

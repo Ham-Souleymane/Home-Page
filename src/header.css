@@ -73,10 +73,12 @@ cursor: pointer;
  @media (max-width:768px){
   .Hcontiner{
     flex-direction: column;
+    padding: 2rem 2rem;
   }
   .aboutMe{
     background-color: transparent;
     box-shadow: none;
+
   }
   .icon-continer{
     bottom: -10px;

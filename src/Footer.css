@@ -52,21 +52,40 @@
   }
 #f-g-icon{
     font-size: 29px;
-    position: absolute;
-    bottom: -40px;
+
+    
     cursor: pointer;
 }
 #f-l-icon{
-    position: absolute;
+   
     height: 29px;
-    bottom: -40px;
-    left: 60px;
+   
     cursor: pointer;
 }
 #f-x-icon{
-    position: absolute;
+   
   height: 29px;
-  bottom: -40px;
-  left: 130px;
+  
   cursor: pointer;
+  
+}
+.f-icons{
+  position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+bottom: -50px;
+
+}
+@media (max-width:768px){
+  .f-continer{
+    padding: 2rem 2rem;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+  .contact-continer{
+    align-items: center;
+   
+  }
 }

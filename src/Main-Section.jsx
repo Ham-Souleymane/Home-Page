@@ -8,7 +8,10 @@ export function Main({className}){
         <main className={className}>
         
       <div className="mContiner">
-       <h1>My Work</h1>
+        <div className="mheader">
+        <h1>My Work</h1>
+          </div>
+      
        <div className="project-card-continer">
        <Card pic={cat} name="Car prrject" detail="car is best project i have in my life"/>
        <Card pic={cat} name="Car prrject" detail="car is best project i have in my life"/>

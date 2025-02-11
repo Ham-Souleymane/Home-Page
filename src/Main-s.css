@@ -1,6 +1,7 @@
 .mContiner{
    
     padding: 2rem 8rem;
+   
 }
 h1{
   margin-bottom: 10px;
@@ -66,11 +67,22 @@ font-size: 22px;
 cursor: pointer;
 }
 @media (max-width:768px){
+  .mContiner{
+    padding: 2rem 2rem;
+  }
   .project-card-continer{
     grid-template-columns: 1fr;
+   
+ 
   }
   .card{
-    width: 80%;
-    height: 400px;
+   
+    height: 500px;
   }
+ .mheader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+ }
 }
